@@ -2,4 +2,4 @@ A.zip:A/SHOULD/BE/IN/HERE/
 B.zip:B/lowercase/HIGHERCASE
 C.zip:OTHER/C/IS/ALL/THE/WAY/IN/HERE
 D.zip:OTHER/D/
-653800.jpg:RANDOM_4K_BACKGROUND/
+bigfile.mp4:the/ultimate/song
