@@ -1,6 +1,8 @@
-//filename:path on sd card:compatibility with last version (file the same as last version)
+// (filename) : (path on sd card) : (compatibility with last version (file the same as last version) (C=COMPATIBLE, N=NOT COMPATIBLE))
+//
 //files compatible with older versions won't be downloaded, but copied from the older versions.
+//
 A.zip:A/SHOULD/BE/IN/HERE/:N
-B.zip:B/lowercase/HIGHERCASE:Y
-C.zip:OTHER/C/IS/ALL/THE/WAY/IN/HERE:Y
+B.zip:B/lowercase/HIGHERCASE:C
+C.zip:OTHER/C/IS/ALL/THE/WAY/IN/HERE:C
 D.zip:OTHER/D/:N
