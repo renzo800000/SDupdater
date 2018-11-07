@@ -1,0 +1,4 @@
+A.zip:A/SHOULD/BE/IN/HERE/:2
+B.zip:B/lowercase/HIGHERCASE:1
+C.zip:OTHER/C/IS/ALL/THE/WAY/IN/HERE:1
+D.zip:OTHER/D/:2
