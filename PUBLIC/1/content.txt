@@ -1,4 +1,15 @@
-A.zip:A/SHOULD/BE/IN/HERE/
-B.zip:B/lowercase/HIGHERCASE
-C.zip:OTHER/C/IS/ALL/THE/WAY/IN/HERE
-D.zip:OTHER/D/
+// (filename) : (path on sd card) : (compatible with every update from x. N -> file is not compatible with any previous version)
+//
+//for example:
+//  A.zip:HELLO/WORLD:5
+//stands for:
+//  filename: A.zip
+//  location on SD: HELLO/WORLD/A.zip
+//  compatible with all A.zip files, starting from version 5 (compatible with v>=5, not compatible v<5)
+//
+//files compatible with older versions won't be downloaded, but copied from the older versions.
+//
+A.zip:A/SHOULD/BE/IN/HERE/:N
+B.zip:B/lowercase/HIGHERCASE:N
+C.zip:OTHER/C/IS/ALL/THE/WAY/IN/HERE:N
+D.zip:OTHER/D/:N
