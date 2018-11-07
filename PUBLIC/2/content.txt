@@ -1,4 +1,4 @@
-// (filename) : (path on sd card) : (compatible with every update from x)
+// (filename) : (path on sd card) : (compatible with every update from x. N -> file is not compatible with any previous version)
 //
 //for example:
 //  A.zip:HELLO/WORLD:5
