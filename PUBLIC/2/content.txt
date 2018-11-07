@@ -1,4 +1,6 @@
-A.zip:A/SHOULD/BE/IN/HERE/:2
-B.zip:B/lowercase/HIGHERCASE:1
-C.zip:OTHER/C/IS/ALL/THE/WAY/IN/HERE:1
-D.zip:OTHER/D/:2
+//filename:path on sd card:compatibility with last version (file the same as last version)
+//files compatible with older versions won't be downloaded, but copied from the older versions.
+A.zip:A/SHOULD/BE/IN/HERE/:N
+B.zip:B/lowercase/HIGHERCASE:Y
+C.zip:OTHER/C/IS/ALL/THE/WAY/IN/HERE:Y
+D.zip:OTHER/D/:N
