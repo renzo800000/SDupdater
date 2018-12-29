@@ -3,11 +3,12 @@
   <assemblyIdentity name="NSE SD updater.application" version="1.0.0.3" publicKeyToken="c810c137178cd39e" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="NSE SD updater" asmv2:product="NSE SD updater" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true">
-    <subscription>
-      <update>
-        <beforeApplicationStartup />
-      </update>
-    </subscription>
+<!-- When to check for updates -->  
+    <subscription>  
+      <update>  
+        <beforeApplicationStartup />  
+      </update>  
+    </subscription>  
     <deploymentProvider codebase="https://raw.githubusercontent.com/renzo800000/SDupdater/master/updates/NSE%20SD%20updater.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
