@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NSE SD updater.exe" version="1.0.0.16" publicKeyToken="d6cbfe0a6e6e8517" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NSE SD updater" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NSE SD updater.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NSE SD updater.exe" size="532520">
+      <assemblyIdentity name="NSE SD updater" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OdZYl5NXJUjf7rSzEYiU7BYwKqgtzuP6OTJieySg82s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Ookii.Dialogs.Wpf.dll" size="107696">
+      <assemblyIdentity name="Ookii.Dialogs.Wpf" version="1.0.0.0" publicKeyToken="0C15020868FD6249" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BLjLVf9IGk9PmmC8PF4G7XjBKoZ3whFiHtz52EZ72CM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon.ico" size="149933">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1jYMIleez6kwMUTTjYmldHk6Ivp7A5ug6joNsN1+UkU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NSE SD updater.exe.config" size="1174">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SvzUUwSFIqXrcTl2OsF3SJ+tfhD5Z06bSzNbd3pcWo0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="src\Ookii.Dialogs.Wpf.dll" size="107696">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BLjLVf9IGk9PmmC8PF4G7XjBKoZ3whFiHtz52EZ72CM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=NAVI Service Europe B.V., O=NAVI Service Europe B.V., STREET=Weimarstraat 71, L=the hague, S=zh, PostalCode=2562 GS, C=NL" issuerKeyHash="299160ff8a4dfaebf9a66ab8cff9e64bbd49ce12" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>v7m9WyWoMAaSu0iIYqjHDQk9yKlbQE2qEaoquBsnogQ=</DigestValue></Reference></SignedInfo><SignatureValue>XXRfHZ9WIP4yiUXbcPDI9GURtsMkBp1EuDQixClD1xLhZZydntqfrT2r5Mf/yErCbht4wKx/3kQQfJbxff6/HyR9BdOETv/YY24+JyOgHXO8hWxJuRzwvj4nJFLQvuSymEmTj8bCbUHBRb7ZjpdkLhXxjnJNR8Ff8YeyNChex2IxmdaQjX6cIBq5//WaU47bZEk2+k/QTmj0/BsjxTxv2jzdj/FzcxhkVvZmTt1GJKvGRvSu8T/4Xm1SiG2pcAi6GGfHQKx3/JDnsBeyORbRjslxqBAM2bDsr/rf+o0C46+ycD6rnCjTcz4jmcl4qMmW0ZBi0yJIue9plgzlEeI44A==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oJ3bK4rsv+RHkJYcVhSUSKUbPnfFdpO1yjp8NOnHalhZEo9QeiVrxenJ5Nh90pTf+oaL32GCTE2YNTh6p733OItFS71YucQZN8c2kalQRn9gL75rFUNW/2OpGnqL2k+fiLN6a4JBWtGX7/3fmZ2zrgXFdF5iGb0qyghArESIULzm63p3TTacweK57YlUpt7B7Lzj0RkR/yzPpoWHXKjplqYZyD077QPjwG9BlVWcvphJQIAwGHZAi1Rs7pNsZCVb1DYYhc1wT2HBP7XKqiIEaLvF29MSFEZRPXGVOvQorIiLSXcg4RvixMKdOcLULyTcFhXwWviN3tZTf4fqQvqUJw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="04a2271bb82aaa11aa4d405ba9c83d090dc7a8628848bb920630a8255bbdb9bf" Description="" Url=""><as:assemblyIdentity name="NSE SD updater.exe" version="1.0.0.16" publicKeyToken="d6cbfe0a6e6e8517" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NAVI Service Europe B.V., O=NAVI Service Europe B.V., STREET=Weimarstraat 71, L=the hague, S=zh, PostalCode=2562 GS, C=NL</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oI8pt5uTQ56Qowb6NZuXdZ5wbcQC18lqATeQ1enxQkU=</DigestValue></Reference></SignedInfo><SignatureValue>So3hYhc76Ea5m+QBj5gyAzuW779vnnA9Eb/0M4Hwreh5A86hiqGLaqdW6K4HfsQlxOpRaq/sQQB6YVcBK+pEZGY7NGt9RnWxxV8LPznIycjNdfFpjyC4ahWPJiAipxPOVLDMKgXhlVoYqMtjGVewP2D1ejeI6ppB8Lizd/22VqBVLZhI31Oj+KiWdSdwgrNWq3r3En9CoIEkTSIxSrTCd2e/a/ec1wp16QljzzyuNLogoj6iyrM7o8wf6whuiHMLGrnWggBMtYph0yEdYrYWK8JcCasuXDnVg3kNsxVMSymgdg9RdwkD0W5ComuJc0XH2UrnTNgzq5dtpwj1CS71VQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oJ3bK4rsv+RHkJYcVhSUSKUbPnfFdpO1yjp8NOnHalhZEo9QeiVrxenJ5Nh90pTf+oaL32GCTE2YNTh6p733OItFS71YucQZN8c2kalQRn9gL75rFUNW/2OpGnqL2k+fiLN6a4JBWtGX7/3fmZ2zrgXFdF5iGb0qyghArESIULzm63p3TTacweK57YlUpt7B7Lzj0RkR/yzPpoWHXKjplqYZyD077QPjwG9BlVWcvphJQIAwGHZAi1Rs7pNsZCVb1DYYhc1wT2HBP7XKqiIEaLvF29MSFEZRPXGVOvQorIiLSXcg4RvixMKdOcLULyTcFhXwWviN3tZTf4fqQvqUJw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIFZzCCBE+gAwIBAgIQaF2/wpH58PNGyxA2NYVFFzANBgkqhkiG9w0BAQsFADB9MQswCQYDVQQGEwJHQjEbMBkGA1UECBMSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYDVQQHEwdTYWxmb3JkMRowGAYDVQQKExFDT01PRE8gQ0EgTGltaXRlZDEjMCEGA1UEAxMaQ09NT0RPIFJTQSBDb2RlIFNpZ25pbmcgQ0EwHhcNMTcwNTE1MDAwMDAwWhcNMTkwNTE1MjM1OTU5WjCBoDELMAkGA1UEBhMCTkwxEDAOBgNVBBEMBzI1NjIgR1MxCzAJBgNVBAgMAnpoMRIwEAYDVQQHDAl0aGUgaGFndWUxGDAWBgNVBAkMD1dlaW1hcnN0cmFhdCA3MTEhMB8GA1UECgwYTkFWSSBTZXJ2aWNlIEV1cm9wZSBCLlYuMSEwHwYDVQQDDBhOQVZJIFNlcnZpY2UgRXVyb3BlIEIuVi4wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCgndsriuy/5EeQlhxWFJRIpRs+d8V2k7XKOnw06cdqWFkSj1B6JWvF6cnk2H3SlN/6hovfYYJMTZg1OHqnvfc4i0VLvVi5xBk3xzaRqVBGf2AvvmsVQ1b/Y6kaeovaT5+Is3prgkFa0Zfv/d+ZnbOuBcV0XmIZvSrKCECsRIhQvObrendNNpzB4rntiVSm3sHsvOPRGRH/LM+mhYdcqOmWphnIPTvtA+PAb0GVVZy+mElAgDAYdkCLVGzuk2xkJVvUNhiFzXBPYcE/tcqqIgRou8Xb0xIURlE9cZU69CisiItJdyDhG+LEwp05wtQvJNwWFfBa+I3e1lN/h+pC+pQnAgMBAAGjggG9MIIBuTAfBgNVHSMEGDAWgBQpkWD/ik366/mmarjP+eZLvUnOEjAdBgNVHQ4EFgQUS/nN4VIh2xP1QA+XltXjAJX07WwwDgYDVR0PAQH/BAQDAgeAMAwGA1UdEwEB/wQCMAAwEwYDVR0lBAwwCgYIKwYBBQUHAwMwEQYJYIZIAYb4QgEBBAQDAgQQMEYGA1UdIAQ/MD0wOwYMKwYBBAGyMQECAQMCMCswKQYIKwYBBQUHAgEWHWh0dHBzOi8vc2VjdXJlLmNvbW9kby5uZXQvQ1BTMEMGA1UdHwQ8MDowOKA2oDSGMmh0dHA6Ly9jcmwuY29tb2RvY2EuY29tL0NPTU9ET1JTQUNvZGVTaWduaW5nQ0EuY3JsMHQGCCsGAQUFBwEBBGgwZjA+BggrBgEFBQcwAoYyaHR0cDovL2NydC5jb21vZG9jYS5jb20vQ09NT0RPUlNBQ29kZVNpZ25pbmdDQS5jcnQwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmNvbW9kb2NhLmNvbTAuBgNVHREEJzAlgSNpbmZvcm1hdGlvbkBuYXZpLXNlcnZpY2UtZXVyb3BlLmNvbTANBgkqhkiG9w0BAQsFAAOCAQEApCYFhAjbWvJwb3BIgM/Ef7gstLy/DJSN0lN+TOpxSKhH+dGR8twaNOBfitFvnG/XRYFTv20wVyG/wwn0+O6Q3xJ6v6a+9tN0zPjao1LUf2mis6LiJG7aoFIENFLJWAsk4ejG6FHYOGUVWkSIOWkIYCrGJYH/1P0QPOdxw5n+lEolx4mIQKeJYn3jCfdkcdPxo+ied4nRZuP2IYh4kQFhxazS6/fIDDIDv1Fx+Ep0iaU1YOQrHbTful43356cns6m4BMqT5PAAD5CJgg//a57onFgxqP8y4b0p2IGuGbpQSHZYMsPaOEAD2JE8taP8uzZR5+SMYo/k2KudasExq4tgw==</X509Certificate><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
